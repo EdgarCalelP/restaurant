@@ -1,0 +1,40 @@
+.ulLista{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+  }
+  /* .Numeros{
+    border: green solid 1px;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: green;
+  border-radius: 5px;
+  
+  } */
+  .Numeros  {background-image: linear-gradient(to right, #87967f 0%, #020b0f  51%, #fbfbfb  100%)}
+  .Numeros {
+     margin: 1px;
+     padding: 5px 15px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 60px;
+   }
+  
+   .Numeros:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+     
+   }
+  .totalConsumo{
+    width: 100%;
+    justify-content: center;
+  }
